@@ -1,0 +1,53 @@
+.Container {
+  width: 100%;
+  height: 100%;
+}
+.navbar {
+  width: 100%;
+  height: 15%;
+}
+.Image {
+  width: 100%;
+  height: 50vh;
+}
+.layer {
+  position: absolute;
+  width: 100%;
+  height: 50vh;
+  top: 10%;
+}
+.text {
+  color: white;
+  font-size: 2rem;
+  width: 100%;
+  height: 1px;
+}
+.line {
+  width: 70%;
+  height: 2px;
+  background-color: white;
+  margin: auto;
+}
+.paragraph {
+  color: white;
+  width: 70%;
+  height: 30%;
+  text-align: center;
+  margin: auto;
+  padding-top: 5vh;
+}
+
+.Bttn {
+  width: 50vw;
+  height: 6vh;
+  border-radius: 25px;
+  border: none;
+  background-color: red;
+  color: white;
+}
+.homeCard {
+  width: 90%;
+  height: 10vh;
+  margin: auto;
+  padding-top: 3vh;
+}

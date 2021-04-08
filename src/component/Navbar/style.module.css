@@ -1,0 +1,24 @@
+.Container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border: 1px solid black;
+  font-size: 1.6rem;
+}
+.text {
+  text-align: center;
+  color: gray;
+}
+.logo {
+  position: absolute;
+  top: 3.4vw;
+  right: 2.3vw;
+}
+.image {
+  width: 50px;
+  height: 40px;
+}
