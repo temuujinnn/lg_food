@@ -46,8 +46,16 @@
   color: white;
 }
 .homeCard {
-  width: 90%;
-  height: 10vh;
+  width: 85%;
+  height: 8vh;
   margin: auto;
   padding-top: 3vh;
+}
+.footer {
+  display: fixed;
+  position: absolute;
+  bottom: 0;
+  right: 2;
+  width: 100%;
+  height: 8%;
 }

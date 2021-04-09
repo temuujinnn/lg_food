@@ -3,6 +3,7 @@ import NavBar from "../../component/Navbar";
 import css from "./style.module.css";
 import Img from "../../Assets/image.jpg";
 import HomeCard from "../../component/homeCard";
+import Footer from "../../component/footer";
 const HomePage = () => {
   return (
     <div className={css.Container}>
@@ -25,6 +26,9 @@ const HomePage = () => {
         <HomeCard />
         <HomeCard />
         <HomeCard />
+      </div>
+      <div className={css.footer}>
+        <Footer />
       </div>
     </div>
   );
